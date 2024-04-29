@@ -1,0 +1,54 @@
+﻿@model ModelLayer.CourseModel
+
+@{
+    ViewData["Title"] = "Course Edit";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-6 offset-3 border border-4 rounded rounded-3 p-4">
+            <h3 class="text-info p-2 m-1 text-center">Update Course Record</h3>
+            <form method="post" asp-action="CourseEdit">
+
+                @Html.HiddenFor(m => m.Course_ID)
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group">
+                    <label asp-for="CourseName" class="control-label"></label>
+                    <input asp-for="CourseName" class="form-control" />
+                    <span asp-validation-for="CourseName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CourseFee" class="control-label"></label>
+                    <input asp-for="CourseFee" class="form-control" />
+                    <span asp-validation-for="CourseFee" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CourseDuration" class="control-label"></label>
+                    <input asp-for="CourseDuration" class="form-control" />
+                    <span asp-validation-for="CourseDuration" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TeacherName" class="control-label"></label>
+                    <input asp-for="TeacherName" class="form-control" />
+                    <span asp-validation-for="TeacherName" class="text-danger"></span>
+                </div>
+
+                <div>
+                    <input type="submit" class="btn btn-sm btn-warning m-2 p-2 float-end " value="Update" />
+                </div>
+                <div>
+                    <a asp-action="Index">Back to List</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</div>
+@section scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+    }
+}

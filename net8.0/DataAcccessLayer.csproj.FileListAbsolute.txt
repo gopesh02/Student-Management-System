@@ -1,0 +1,17 @@
+C:\Users\admin\Desktop\erero\DataAcccessLayer\bin\Debug\net8.0\DataAcccessLayer.deps.json
+C:\Users\admin\Desktop\erero\DataAcccessLayer\bin\Debug\net8.0\DataAcccessLayer.runtimeconfig.json
+C:\Users\admin\Desktop\erero\DataAcccessLayer\bin\Debug\net8.0\DataAcccessLayer.dll
+C:\Users\admin\Desktop\erero\DataAcccessLayer\bin\Debug\net8.0\DataAcccessLayer.pdb
+C:\Users\admin\Desktop\erero\DataAcccessLayer\bin\Debug\net8.0\ModelLayer.dll
+C:\Users\admin\Desktop\erero\DataAcccessLayer\bin\Debug\net8.0\ModelLayer.pdb
+C:\Users\admin\Desktop\erero\DataAcccessLayer\obj\Debug\net8.0\DataAcccessLayer.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\erero\DataAcccessLayer\obj\Debug\net8.0\DataAcccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\erero\DataAcccessLayer\obj\Debug\net8.0\DataAcccessLayer.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\erero\DataAcccessLayer\obj\Debug\net8.0\DataAcccessLayer.AssemblyInfo.cs
+C:\Users\admin\Desktop\erero\DataAcccessLayer\obj\Debug\net8.0\DataAcccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\erero\DataAcccessLayer\obj\Debug\net8.0\DataAccc.FA3D8B01.Up2Date
+C:\Users\admin\Desktop\erero\DataAcccessLayer\obj\Debug\net8.0\DataAcccessLayer.dll
+C:\Users\admin\Desktop\erero\DataAcccessLayer\obj\Debug\net8.0\refint\DataAcccessLayer.dll
+C:\Users\admin\Desktop\erero\DataAcccessLayer\obj\Debug\net8.0\DataAcccessLayer.pdb
+C:\Users\admin\Desktop\erero\DataAcccessLayer\obj\Debug\net8.0\DataAcccessLayer.genruntimeconfig.cache
+C:\Users\admin\Desktop\erero\DataAcccessLayer\obj\Debug\net8.0\ref\DataAcccessLayer.dll

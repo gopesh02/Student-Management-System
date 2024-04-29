@@ -1,0 +1,51 @@
+﻿@model List<ModelLayer.StudentModel>
+
+
+<p>
+    <a class="btn btn-sm btn-primary m-1" asp-action="Create">Create New Student Data</a>
+</p>
+@* <button class="btn btn-sm btn-primary m-1" asp-action="Create">Create New</button> *@
+<table class="table">
+    <thead>
+        <tr>
+
+            <td>Student_ID</td>
+            <td>FullName</td>
+            <td>Phone</td>
+            <td>Gender</td>
+            <td>Email</td>
+            <td>Address</td>
+            <td>PinCode</td>
+            <td>Course</td>
+            <td>Action</td>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Student_ID</td>
+                <td>@item.FullName</td>
+                <td>@item.Phone</td>
+                <td>@item.Gender</td>
+                <td>@item.Email</td>
+                <td>@item.Address</td>
+
+                <td>@item.PinCode</td>
+                <td><a class="btn btn-sm btn-primary m-1" asp-controller="Home" asp-action="CourseIndex" >Course Details</a></td>
+                @* asp-route-id="@item.Course_ID" *@
+
+                <td>
+
+                    <a class="btn btn-sm btn-primary m-1" asp-controller="Home" asp-action="Edit" asp-route-id="@item.Student_ID">Edit</a>
+                    <a class="btn btn-sm btn-secondary m-1" asp-controller="Home" asp-action="Delete" asp-route-id="@item.Student_ID">Delete</a>
+                </td>
+                
+            </tr>
+        }
+
+    </tbody>
+</table>
+

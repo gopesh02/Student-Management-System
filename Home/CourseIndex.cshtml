@@ -1,0 +1,44 @@
+﻿model List<ModelLayer.CourseModel>
+
+
+    <p>
+        <a class="btn btn-sm btn-primary m-1" asp-action="CourseCreate">Create New Course Details</a>
+    </p>
+
+    <table class="table">
+        <thead>
+            <tr>
+
+                <td>Course_ID</td>
+                <td>CourseName</td>
+                <td>CourseFee</td>
+                <td>CourseDuration</td>
+                <td>TeacherName</td>
+                <td>Action</td>
+                
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Course_ID</td>
+                    <td>@item.CourseName</td>
+                    <td>@item.CourseFee</td>
+                    <td>@item.CourseDuration</td>
+                    <td>@item.TeacherName</td>
+                    <td>
+                        <a class="btn btn-sm btn-primary m-1" asp-controller="Home" asp-action="CourseEdit" asp-route-id="@item.Course_ID">Edit</a>
+                        <a class="btn btn-sm btn-secondary m-1" asp-controller="Home" asp-action="CourseDelete" asp-route-id="@item.Course_ID">Delete</a>
+                    </td>
+                </tr>
+            }
+            <div>
+                <a class="btn btn-sm btn-primary m-1"  asp-action="Index">Back to List</a>
+            </div>
+
+
+        </tbody>
+    </table>
+
